@@ -3138,7 +3138,7 @@ void print_report_fs_rate (struct perftest_parameters *user_param)
 	double latency = 0, average = 0, fps = 0;
 	int measure_cnt = 1;
 	cycles_t test_sample_time;
-
+	// TODO: need to fix
 	if (user_param->r_flag->cycles) {
 		cycles_to_units = 1;
 		units = CYCLES;
